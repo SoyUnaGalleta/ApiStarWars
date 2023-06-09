@@ -1,0 +1,112 @@
+:root {
+    --coloBase0: #fff;
+    --coloBase1: #f5f5f5;
+    --coloBase2: #ddd;
+    --coloBase3: #ccc;
+
+    --color0: #eb0258;
+    --color1: #02EB95;
+    --color2: #9502eb;
+    --color3: #dbf73b;
+}
+
+body {
+    background-color: var(--coloBase1);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px 20px;
+}
+
+.letra0 {
+    border-bottom: 1px solid var(--color0);
+    color: var(--color0);
+}
+
+.letra1 {
+    border-bottom: 1px solid var(--color1);
+    color: var(--color1);
+}
+
+.letra2 {
+    border-bottom: 1px solid var(--color2);
+    color: var(--color2);
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 125%;
+    text-align: right;
+    padding: 0px 30px;
+}
+
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;  
+}
+
+.color0{
+   background-color: var(--color0); 
+}
+
+.color1{
+    background-color: var(--color1);
+}
+
+.color2{
+    background-color: var(--color2);
+}
+
+.bordeDerecho{
+    border-right:solid 3px ;
+  
+}
+
+.ancho {
+    width: 30%;
+}
+
+.card {
+    background-color: var(--coloBase0);
+    box-shadow: 0px 0px 5px var(--coloBase3), 0px 0px 10px var(--coloBase3);
+}
+
+.circulito{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: var(--color3);
+}
+
+.linea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--coloBase2);
+    height: 100%;
+    width: 3px;
+}
+
+#rango1, #rango2, #rango3 {
+    margin: 0% 25%;
+    width: 50%;
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .ancho {
+        width: 300px;
+    }
+
+    .circulo{
+        width: 25px;
+        height: 25px;
+    }
+}
